@@ -272,3 +272,297 @@
     text-transform: uppercase;
 }
 /* -- About Ends -- */
+
+
+@media screen and (max-width: 1366px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 115px;
+    }
+
+    .nav-logo {
+        margin-left: 90px;
+        margin-right: 200px;
+    }
+
+    .nav-menu ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 15px;
+    }
+
+    .nav-menu ul li a {
+        text-decoration: none;
+        font-family: 'Mazzard-Bold';
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #316A9D;
+        padding: 8px 15px;
+        background-color: #fff;
+        border-radius: 25px;
+        transition: all .5s;
+        cursor: pointer;
+    }
+
+    .nav-menu ul li.select a {
+        color: #fff;
+        padding: 8px 15px;
+        background-color: #316A9D;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .nav-menu ul li a:hover{
+        color: #fff;
+        background-color: #316A9D;
+        padding: 8px 15px;
+        border-radius: 25px;
+        transition: all .5s;
+        cursor: pointer;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 533px;
+    }
+
+    .banner-1 {
+        background-image: url(../img/banner-1.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 533px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-1 h1 {
+        font-family: Mazzard-Black;
+        color: rgb(255, 255, 255);
+        font-size: 65px;
+        width: 483px;
+        margin-left: 90px;
+        margin-bottom: 25px;
+        letter-spacing: 2.55px;
+    }
+
+    .banner-1 p {
+        font-family: 'Mazzard-Bold';
+        font-size: 30px;
+        color: #fff;
+        width: 483px;
+        margin-left: 90px;
+        letter-spacing: 2.55px;
+    }
+
+    .produtos-home-texto {
+        margin: 50px 0;
+        padding-inline: 150px;
+    }
+
+    .produto-content {
+        display: flex;
+        align-items: center;
+        width: 520px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+    }
+
+    .counter-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 90px;
+    }
+
+    .about-home-title img{
+        height: 372px;
+    }
+
+    .about-home-title-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 251px;
+        background: linear-gradient(100deg, #0093E5 63.5%, rgba(0, 147, 229, 0.00) 125.43%, rgba(0, 147, 229, 0.64) 125.43%);
+        margin-left: 5px;
+    }
+
+    .produto-content .produto-img{
+        width: 250px;
+    }
+
+    .about-home-text{
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    .about-home-text h1{
+        font-family: 'Mazzard-Extra-Bold';
+        font-size: 29px;
+        color: #0093E5;
+        text-transform: uppercase;
+    }
+
+    .about-home-text h2{
+        font-family: 'Mazzard-ExtraLight';
+        font-size: 18px;
+        color: #545454;
+        margin: 60px 0;
+        padding-inline: 150px;
+    }
+    
+    .about-home-text a{
+        text-decoration: none;
+        text-transform: uppercase;
+        border: solid 2px #0093E5;
+        padding: 10px 25px;
+        border-radius: 25px;
+        font-family: 'Mazzard-Extra-Bold';
+        font-size: 21px;
+        color: #0093E5;
+    }
+
+    .footer {
+        background-color: #144571;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding-inline: 20px;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu img{
+        width: 240px;
+    }
+
+    .footer-menu p{
+        font-family: 'Mazzard-ExtraLight';
+        font-size: 10px;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .footer-menu .links-A {
+        text-decoration: none;
+        font-family: 'Mazzard-Bold';
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        border: solid 2px #fff;
+        border-radius: 25px;
+        padding: 12px 22px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-menu .links{
+        margin-top: 25px;
+    }
+
+    .footer-menu .links li{
+        color: #fff;
+    }
+
+    .footer-menu .links li a{
+        text-decoration: none;
+        font-family: 'Mazzard-Extra-Bold';
+        font-size: 19px;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+
+    .menu-title{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-title .bar{
+        height: 30px;
+        width: 5px;
+        background-color: #fff;
+    }
+
+    .menu-title h1{
+        font-family: 'Mazzard-Extra-Bold';
+        color: #fff;
+        margin-left: 10px;
+    }
+
+    .footer-contato-btns{
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+    }
+
+    .footer-contato-btns a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'Mazzard-Bold';
+        color: #fff;
+        margin: 10px 0;
+        padding-inline: 15px;
+    }
+
+    .footer-contato-btns a i{
+        margin-right: 5px;
+    }
+
+    .social-menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-menu a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 35px;
+        margin: 20px 15px;
+    }
+
+    .copy{
+        text-align: center;
+        margin-top: 15px;
+        border-top: solid 1px #fff;
+        width: 100%;
+    }
+
+    .copy h1{
+        font-family: 'Mazzard-ExtraLight';
+        color: #fff;
+        font-size: 10px;
+        margin-top: 5px;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copy h1 a{
+        text-decoration: none;
+        color: #fa0404;
+        font-family: 'Mazzard-Bold';
+        font-size: 15px;
+    }
+}
