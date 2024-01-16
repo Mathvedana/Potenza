@@ -38,6 +38,27 @@
     margin: 0;
 }
 
+/*---- btn social section ------ */
+.whatsapp-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 25px;
+    right: 18px;
+    background-color: #144571;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    text-decoration: none !important;
+}
+/*-- btn social section ends --*/
+
 /* Nav */
 
 .navbar{
@@ -788,6 +809,25 @@
     color: #fff;
 }
 
+.img-content{
+    border-radius: 18px;
+    opacity: 0;
+    transition: all 2s;
+    position: absolute;
+    right: 260px;
+    top: 753px;
+}
+
+.shoow{
+    opacity: 1;
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1366px) {
     .navbar {
         display: flex;
@@ -1225,6 +1265,19 @@
         margin-bottom: 54px;
     }
     /*-- Page - Contato Ends --*/
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 130px;
+        top: 533px;
+    }
+
+    .shoow{
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width:1280px) {
@@ -1698,6 +1751,24 @@
     .content-maps iframe {
         width: 580px;
     }
+
+    .alcance-nacional {
+        margin-top: 454px;
+        margin-bottom: 72px;
+    }
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 180px;
+        top: 887px;
+    }
+
+    .shoow{
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -2100,6 +2171,24 @@
         margin-left: 0;
         margin-top: 30px;
     }
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 45px;
+        top: 1010px;
+    }
+
+    .shoow{
+        opacity: 1;
+    }
+
+    .alcance-nacional {
+        margin-top: 300px;
+        margin-bottom: 72px;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -2275,6 +2364,19 @@
         flex-direction: column;
         align-items: stretch;
         padding-inline: 10px;
+    }
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 30px;
+        top: 1060px;
+    }
+
+    .shoow{
+        opacity: 1;
     }
 }
 
