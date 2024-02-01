@@ -540,7 +540,7 @@
 
 /*-- Page - Produtos --*/
 .banner-produtos{
-    background: url(../img/about-banner.jpg);
+    background: url(../img/banner-produtos.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -554,6 +554,7 @@
     text-transform: uppercase;
     color: #fff;
     font-size: 94px;
+    margin-left: 20px;
 }
 
 .product-details-container{
@@ -978,7 +979,7 @@
     }
 
     .banner-4 h1 {
-        font-family: Mazzard-Extra-Bold;
+        font-family: 'Mazzard-Extra-Bold';
         font-size: 40px;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
