@@ -126,7 +126,7 @@
 }
 
 .banner-1{
-    background-image: url(../img/banner-1.svg);
+    background-image: url(../img/banner-1.png);
     width: 100%;
     height: 760px;
     display: flex;
@@ -157,7 +157,7 @@
 }
 
 .banner-2{
-    background: url(../img/banner-2.svg);
+    background: url(../img/banner-2.png);
     width: 100%;
     height: 760px;
     display: flex;
@@ -178,7 +178,7 @@
 }
 
 .banner-3{
-    background: url(../img/banner-3.svg);
+    background: url(../img/banner-3.png);
     width: 100%;
     height: 760px;
     display: flex;
@@ -540,7 +540,7 @@
 
 /*-- Page - Produtos --*/
 .banner-produtos{
-    background: url(../img/banner-produtos.svg);
+    background: url(../img/about-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -611,7 +611,7 @@
 }
 
 .banner-about{
-    background: url(../img/about-banner.svg);
+    background: url(../img/about-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -887,7 +887,7 @@
     }
 
     .banner-1 {
-        background-image: url(../img/banner-1.svg);
+        background-image: url(../img/banner-1.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -919,7 +919,7 @@
     }
 
     .banner-2 {
-        background: url(../img/banner-2.svg);
+        background: url(../img/banner-2.png);
         background-size: contain;
         width: 100%;
         height: 537px;
@@ -941,7 +941,7 @@
     }
 
     .banner-3{
-        background: url(../img/banner-3.svg);
+        background: url(../img/banner-3.png);
         background-size: contain;
         width: 100%;
         height: 537px;
@@ -1218,7 +1218,7 @@
 
     /*-- Page - About --*/
     .banner-about {
-        background: url(../img/about-banner.svg);
+        background: url(../img/about-banner.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 500px;
@@ -1294,7 +1294,7 @@
     }
 
     .banner-1 {
-        background-image: url(../img/banner-1.svg);
+        background-image: url(../img/banner-1.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
@@ -1307,7 +1307,7 @@
     }
 
     .banner-2 {
-        background: url(../img/banner-2.svg);
+        background: url(../img/banner-2.png);
         background-size: cover;
         width: 100%;
         height: 500px;
@@ -1329,7 +1329,7 @@
     }
 
     .banner-3 {
-        background: url(../img/banner-3.svg);
+        background: url(../img/banner-3.png);
         background-size: cover;
         width: 100%;
         height: 500px;
@@ -1393,7 +1393,7 @@
     }
 
     .banner-about {
-        background: url(../img/about-banner.svg);
+        background: url(../img/about-banner.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 427px;
@@ -1456,7 +1456,7 @@
     }
 
    .banner-1 {
-    background-image: url(../img/banner-1.svg);
+    background-image: url(../img/banner-1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -1488,7 +1488,7 @@
     }
 
     .banner-2 {
-        background: url(../img/banner-2.svg);
+        background: url(../img/banner-2.png);
         background-size: cover;
         width: 100%;
         height: 323px;
@@ -1510,7 +1510,7 @@
     }
 
     .banner-3 {
-        background: url(../img/banner-3.svg);
+        background: url(../img/banner-3.png);
         background-size: cover;
         width: 100%;
         height: 323px;
@@ -1547,7 +1547,7 @@
     }
 
     .banner-4 h1 {
-        font-family: Mazzard-Extra-Bold;
+        font-family: 'Mazzard-Extra-Bold';
         font-size: 25px;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
@@ -1658,7 +1658,7 @@
     }
 
     .banner-produtos {
-        background: url(../img/banner-produtos.svg);
+        background: url(../img/banner-produtos.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -1689,7 +1689,7 @@
     }
 
     .banner-about {
-        background: url(../img/about-banner.svg);
+        background: url(../img/about-banner.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 276px;
@@ -1789,7 +1789,7 @@
     }
 
     .banner-1 {
-        background-image: url(../img/banner-1.svg);
+        background-image: url(../img/banner-1.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -1821,7 +1821,7 @@
     }
 
     .banner-2 {
-        background: url(../img/banner-2.svg);
+        background: url(../img/banner-2.png);
         background-size: cover;
         width: 100%;
         height: 200px;
@@ -1843,7 +1843,7 @@
     }
 
     .banner-3 {
-        background: url(../img/banner-3.svg);
+        background: url(../img/banner-3.png);
         background-size: contain;
         width: 100%;
         height: 200px;
@@ -1880,7 +1880,7 @@
     }
 
     .banner-4 h1 {
-        font-family: Mazzard-Extra-Bold;
+        font-family: 'Mazzard-Extra-Bold';
         font-size: 16px;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
@@ -2004,7 +2004,7 @@
     }
 
     .banner-produtos {
-        background: url(../img/banner-produtos.svg);
+        background: url(../img/banner-produtos.png);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -2071,7 +2071,7 @@
     }
 
     .banner-about {
-        background: url(../img/about-banner.svg);
+        background: url(../img/about-banner.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 143px;
@@ -2081,11 +2081,11 @@
 
     .banner-about h1 {
         font-family: 'Mazzard-Extra-Bold';
-        font-size: 53px;
+        font-size: 30px;
         color: #fff;
         text-transform: uppercase;
         letter-spacing: 1px;
-        max-width: 250px;
+        max-width: 170px;
         margin-left: 24px;
     }
 
@@ -2224,7 +2224,7 @@
     }
 
     .banner-about {
-        background: url(../img/about-banner.svg);
+        background: url(../img/about-banner.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         height: 134px;
@@ -2251,7 +2251,7 @@
     }
 
     .banner-1 {
-        background-image: url(../img/banner-1.svg);
+        background-image: url(../img/banner-1.png);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -2283,7 +2283,7 @@
     }
 
     .banner-2 {
-        background: url(../img/banner-2.svg);
+        background: url(../img/banner-2.png);
         background-size: cover;
         width: 100%;
         height: 200px;
@@ -2295,7 +2295,7 @@
     }
 
     .banner-3 {
-        background: url(../img/banner-3.svg);
+        background: url(../img/banner-3.png);
         background-size: contain;
         width: 100%;
         height: 200px;
@@ -2332,7 +2332,7 @@
     }
 
     .banner-4 h1 {
-        font-family: Mazzard-Extra-Bold;
+        font-family: 'Mazzard-Extra-Bold';
         font-size: 15px;
         text-transform: uppercase;
         color: rgb(255, 255, 255);
@@ -2400,7 +2400,7 @@
     }
 
     .banner-produtos {
-        background: url(../img/banner-produtos.svg);
+        background: url(../img/banner-produtos.png);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
