@@ -829,6 +829,202 @@
     justify-content: center;
 }
 
+@media screen and (min-width: 2048px) {
+    .produto-content {
+        display: flex;
+        align-items: center;
+        width: 580px;
+        margin-left: 110px;
+        margin-bottom: 100px;
+    }
+
+    .about-home-title-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 552px;
+        background: linear-gradient(100deg, #0093E5 63.5%, rgba(0, 147, 229, 0.00) 125.43%, rgba(0, 147, 229, 0.64) 125.43%);
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1728px){
+    .about-home-title-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 400px;
+        background: linear-gradient(100deg, #0093E5 63.5%, rgba(0, 147, 229, 0.00) 125.43%, rgba(0, 147, 229, 0.64) 125.43%);
+        margin-left: 5px;
+    }
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 80px;
+        top: 730px;
+    }
+
+    .shoow{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .nav-logo {
+        margin-left: 110px;
+        margin-right: 180px;
+    }
+
+    .banner-section {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 640px;
+    }
+
+    .banner-1 {
+        background-image: url(../img/banner-1.png);
+        width: 100%;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        opacity: 0;
+        transition: .8s ease-in-out;
+    }
+
+    .banner-1 h1 {
+        font-family: 'Mazzard-Black';
+        color: #fff;
+        font-size: 70px;
+        width: 483px;
+        margin-left: 110px;
+        margin-bottom: 25px;
+        letter-spacing: 2.55px;
+    }
+
+    .banner-1 p {
+        font-family: 'Mazzard-Bold';
+        font-size: 40px;
+        color: #fff;
+        width: 483px;
+        margin-left: 110px;
+        letter-spacing: 2.55px;
+    }
+
+    .banner-2 {
+        background: url(../img/banner-2\(1440\).png);
+        width: 100%;
+        height: 640px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        opacity: 0;
+        transition: .8s ease-in-out;
+    }
+
+    .banner-2 h1 {
+        font-family: 'Mazzard-Black';
+        font-size: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: 580px;
+        margin-left: 110px;
+    }
+
+    .banner-3 {
+        background: url(../img/banner-3-1440.png);
+        width: 100%;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        opacity: 0;
+        transition: .8s ease-in-out;
+    }
+
+    .banner-3 h1 {
+        font-family: 'Mazzard-Black';
+        font-size: 54px;
+        letter-spacing: 2px;
+        color: #0093E5;
+        text-transform: uppercase;
+        padding-inline: 260px;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .banner-4 {
+        background: url(../img/banner-4.svg);
+        width: 100%;
+        height: 640px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0;
+        transition: .8s ease-in-out;
+    }
+
+    .banner-4 h1 {
+        font-family: 'Mazzard-Extra-Bold';
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #fff;
+        width: 790px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .about-home-title-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 300px;
+        background: linear-gradient(100deg, #0093E5 63.5%, rgba(0, 147, 229, 0.00) 125.43%, rgba(0, 147, 229, 0.64) 125.43%);
+        margin-left: 5px;
+    }
+
+    .show{
+        opacity: 1;
+    }
+
+    .img-content {
+        border-radius: 18px;
+        opacity: 0;
+        transition: all 2s;
+        position: absolute;
+        right: 34px;
+        top: 731px;
+    }
+
+    .shoow{
+        opacity: 1;
+    }
+
+    .about-text-left {
+        font-family: 'Mazzard-ExtraLight';
+        max-width: 655px;
+        font-size: 20px;
+    }
+
+    .telefone a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Mazzard-Bold';
+    color: #fff;
+    background-color: #144571;
+    padding: 14px 12px;
+    border-radius: 25px;
+}
+}
+
 @media screen and (max-width: 1366px) {
     .navbar {
         display: flex;
